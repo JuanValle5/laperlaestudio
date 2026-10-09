@@ -1,0 +1,17 @@
+# Solo versionar los archivos necesarios del sitio.
+/*
+!/.gitignore
+!/README.md
+!/index.html
+!/styles.css
+!/script.js
+!/img/
+
+# Recursos web optimizados; los JPEG originales quedan solo en local.
+/img/*
+!/img/*.webp
+!/img/*.svg
+!/img/*.png
+
+# informacion.md, temporales, credenciales y ajustes locales quedan
+# excluidos por la regla inicial. Añadir excepciones para nuevos archivos públicos.
