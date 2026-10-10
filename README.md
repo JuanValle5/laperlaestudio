@@ -34,6 +34,6 @@ Falta confirmar la dirección exacta y los días de atención.
 - `img/la-perla-logo.svg`: composición completa en marrón, usada en portada, encabezado y pie.
 - `img/la-perla-icon.svg`: la P original en crema sobre marrón, usada como favicon.
 
-Ambos SVG contienen la imagen original como máscara de luminancia: conservan los contornos, la tipografía y las proporciones; no son una vectorización ni una reinterpretación de las letras. El fondo es transparente en el logo completo. Para cambiar el color, edita el `fill` del rectángulo visible de cada SVG.
+Ambos SVG son trazados vectoriales con curvas obtenidas del logo original, sin JPEG incrustados ni máscaras rasterizadas. Conservan la composición y las proporciones de las letras. El fondo es transparente en el logo completo. Para cambiar el color, edita el `fill` de los trazados de cada SVG.
 
 Los tres JPEG de referencia en `img/logo/` se conservan localmente y siguen ignorados. Los SVG son autónomos y están incluidos por las reglas actuales de `.gitignore`; no necesitan los JPEG para funcionar.
