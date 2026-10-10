@@ -23,8 +23,17 @@ El número de WhatsApp se configura en `WHATSAPP_NUMBER`, dentro de `script.js`.
 
 Para alojarla, publica los tres archivos del sitio y la carpeta `img`, manteniendo sus rutas. Las fuentes de Google y el mapa requieren conexión a Internet.
 
-El logo es provisional. Falta confirmar la dirección exacta y los días de atención.
+Falta confirmar la dirección exacta y los días de atención.
 
 ## Archivos locales
 
 `.gitignore` incluye únicamente el sitio, sus recursos web y este documento. Las notas `informacion.md`, fotografías JPEG originales, archivos temporales y configuraciones locales no se suben. Si añades otro archivo público o una subcarpeta, actualiza las excepciones de `.gitignore`.
+
+## Identidad visual
+
+- `img/la-perla-logo.svg`: composición completa en marrón, usada en portada, encabezado y pie.
+- `img/la-perla-icon.svg`: la P original en crema sobre marrón, usada como favicon.
+
+Ambos SVG contienen la imagen original como máscara de luminancia: conservan los contornos, la tipografía y las proporciones; no son una vectorización ni una reinterpretación de las letras. El fondo es transparente en el logo completo. Para cambiar el color, edita el `fill` del rectángulo visible de cada SVG.
+
+Los tres JPEG de referencia en `img/logo/` se conservan localmente y siguen ignorados. Los SVG son autónomos y están incluidos por las reglas actuales de `.gitignore`; no necesitan los JPEG para funcionar.
